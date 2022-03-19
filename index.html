@@ -16,20 +16,18 @@
   <body>
     <!-- navigation -->
     <header>
-      <h1>
-        <a href="/">Andrew Piccolo</a>
-      </h1>
+      <h1>Andrew Piccolo</h1>
 
       <nav>
         <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me">About</a>
           </li>
           <li>
             <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -38,14 +36,19 @@
     <section class="hero"></section>
 
     <!-- About Me  -->
-    <section id="about-me">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-        consequuntur aliquam perspiciatis beatae laborum eligendi corporis
-        laboriosam aliquid vero. Tenetur expedita nostrum explicabo nihil
-        officia dolorem accusantium autem animi voluptatem?
-      </p>
+    <section class="about" id="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          consequuntur aliquam perspiciatis beatae laborum eligendi corporis
+          laboriosam aliquid vero. Tenetur expedita nostrum explicabo nihil
+          officia dolorem accusantium autem animi voluptatem?
+        </p>
+      </div>
+      <div class="about-me-img">
+        <img src="./assets/images/IMG_0951 (1).jpg" alt="myself" />
+      </div>
     </section>
 
     <!-- Work -->
@@ -57,12 +60,28 @@
           <div class="img-txt">
             <h3>Run Buddy</h3>
           </div>
-          <img src="./assets/images/hero-bg.jpg" alt="runner tying shoe" />
+          <a href="https://github.com/ajpicc3734/run-buddy-2"
+            ><img
+              id="run-buddy"
+              src="./assets/images/hero-bg.jpg"
+              alt="runner tying shoe"
+          /></a>
         </section>
 
         <section class="card">
           <div class="img-txt">
-            <h3>Project 2</h3>
+            <h3>Robot Gladiators</h3>
+          </div>
+          <a href="https://github.com/ajpicc3734/robot-gladiators"> <img
+            src="./assets/images/mark-chan-od3F8UT0YAI-unsplash.jpg"
+            alt="robot fight"
+          /></a>
+         
+        </section>
+
+        <section class="card">
+          <div class="img-txt">
+            <h3>Project Coming Soon!</h3>
           </div>
           <img
             src="./assets/images/istockphoto-1147544807-612x612.jpg"
@@ -72,7 +91,7 @@
 
         <section class="card">
           <div class="img-txt">
-            <h3>Project 3</h3>
+            <h3>Project Coming Soon!</h3>
           </div>
           <img
             src="./assets/images/istockphoto-1147544807-612x612.jpg"
@@ -82,7 +101,7 @@
 
         <section class="card">
           <div class="img-txt">
-            <h3>Project 4</h3>
+            <h3>Project Coming Soon!</h3>
           </div>
           <img
             src="./assets/images/istockphoto-1147544807-612x612.jpg"
@@ -92,27 +111,58 @@
 
         <section class="card">
           <div class="img-txt">
-            <h3>Project 5</h3>
+            <h3>Project Coming Soon!</h3>
           </div>
           <img
             src="./assets/images/istockphoto-1147544807-612x612.jpg"
             alt="placeholder"
           />
         </section>
-
         <section class="card">
           <div class="img-txt">
-            <h3>Project 6</h3>
+            <h3>Project Coming Soon!</h3>
           </div>
           <img
             src="./assets/images/istockphoto-1147544807-612x612.jpg"
             alt="placeholder"
           />
-        </section>
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact"></section>
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <ul class="contact-container">
+        <li>
+          <h3>Email</h3>
+          <a href="mailto:ajpicc3734@gmail.com">
+            <img class="contact-img" src="./assets/images/mail.png" alt="mail"
+          /></a>
+        </li>
+
+        <li>
+          <h3>GitHub</h3>
+          <a href="https://github.com/ajpicc3734">
+            <img
+              class="contact-img"
+              src="./assets/images/GitHub-Mark/PNG/GitHub-Mark-64px.png"
+              alt="github"
+            />
+          </a>
+        </li>
+        <li>
+          <h3>LinkedIn</h3>
+          <a
+            href="https://www.linkedin.com/in/andrew-piccolo-4930835b?trk=people-guest_people_search-card"
+          >
+            <img
+              class="contact-img"
+              src="./assets/images/new-linkedin-logo-white-black-png.png"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+    </section>
     <footer></footer>
   </body>
 </html>

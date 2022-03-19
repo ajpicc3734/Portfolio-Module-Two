@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: #e9ecef; */
   color: #495057;
   font-family: "Dongle", sans-serif;
 }
@@ -12,20 +11,20 @@ header {
   display: flex;
   justify-content: space-between;
   color: #84a59d;
-  background-color: #00b4d8;
+  background-color: #343a40;
 }
 header nav {
   margin: 7px 0;
-  font-size: 2em;
 }
 header h1 {
   font-weight: bold;
   font-size: 3em;
   margin: 0;
+  color: #e9ecef;
 }
 header a {
   text-decoration: none;
-  color: #495057;
+  color: #e9ecef;
 }
 header nav ul {
   display: flex;
@@ -39,6 +38,11 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+h2 {
+  font-weight: bold;
+  font-size: 3em;
+  margin-left: 25px;
+}
 .hero {
   height: 500px;
   width: 100%;
@@ -49,24 +53,128 @@ header nav ul li a {
   background-position: center;
 }
 
+.about {
+  display: flex;
+  max-width: 830px;
+  margin: 0 auto;
+}
+.about div {
+  padding: 40px;
+}
+.about-me-img img {
+  border-radius: 35%;
+}
+.about-me-text h2 {
+  text-align: left;
+  margin: 0;
+}
+.about-me-text p {
+  font-size: 22px;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
 }
 .card {
   position: relative;
   text-align: center;
   display: inline-block;
   padding: 5px;
-  /* flex: 1 0 0; */
 }
 .card img {
-  width: 400px;
+  width: 475px;
+  height: 475px;
   display: block;
+}
+#run-buddy {
+  width: 960px;
+  height: 300px;
 }
 .img-txt {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+.contact-img {
+  height: 64px;
+  width: 64px;
+}
+
+ul.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+}
+ul.contact-container li {
+  margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  header {
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    text-align: left;
+    width: 100%;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero {
+    width: 100%;
+  }
+  #run-buddy {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+
+  .card img {
+    width: 375px;
+    height: 375px;
+    display: block;
+  }
+  #run-buddy {
+    width: 500px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 575px) {
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-me-img {
+    margin: 0 auto;
+  }
+  .about-me-text h2 {
+    text-align: center;
+  }
+  .card img {
+    width: 300px;
+    height: 300px;
+    display: block;
+  }
+  #run-buddy {
+    width: 300px;
+    height: 100px;
+  }
+  h2 {
+    text-align: center;
+  }
 }
