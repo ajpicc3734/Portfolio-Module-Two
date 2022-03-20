@@ -38,6 +38,13 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+header nav ul li a:hover {
+  /* background: #92b5bb; */
+  color: #7993ad;
+  border-radius: 15px;
+  margin: 0.2em;
+  padding: 0.8em;
+}
 h2 {
   font-weight: bold;
   font-size: 3em;
@@ -70,6 +77,11 @@ h2 {
 }
 .about-me-text p {
   font-size: 22px;
+}
+p.hi {
+  font-size: 30px;
+  font-weight: bold;
+  color: #92b5bb;
 }
 .container {
   display: flex;
@@ -155,6 +167,11 @@ ul.contact-container li {
   }
 }
 @media screen and (max-width: 575px) {
+  header h1 {
+    text-align: left;
+    width: 100%;
+  }
+
   header nav ul {
     margin-top: 20px;
     width: 100%;
@@ -180,5 +197,8 @@ ul.contact-container li {
   }
   h2 {
     text-align: center;
+  }
+  #contact {
+    width: 100%;
   }
 }
