@@ -13,6 +13,5 @@ https://ajpicc3734.github.io/Portfolio-Module-Two/
 
 ## Screen Shot
 
-![screenshot](portfolio-module-two\assets\images\screenshot.PNG)
+![screenshot](https://user-images.githubusercontent.com/99152798/159186086-c1794a3d-1233-44a2-8bd2-2b63cf3bec01.PNG)
 
-C:\Users\18143\projectsrbc\portfolio-module-two\assets\images\screenshot.PNG
