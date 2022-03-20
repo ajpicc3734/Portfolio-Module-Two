@@ -7,6 +7,8 @@ body {
   color: #495057;
   font-family: "Dongle", sans-serif;
 }
+/* Header and nav bar styling */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -50,6 +52,8 @@ h2 {
   font-size: 3em;
   margin-left: 25px;
 }
+/* Hero Styling */
+
 .hero {
   height: 500px;
   width: 100%;
@@ -59,7 +63,7 @@ h2 {
   background-size: cover;
   background-position: center;
 }
-
+/* About section styling */
 .about {
   display: flex;
   max-width: 830px;
@@ -83,6 +87,7 @@ p.hi {
   font-weight: bold;
   color: #92b5bb;
 }
+/* Work Section styling  */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +114,7 @@ p.hi {
   bottom: 8px;
   left: 16px;
 }
+/* Contact section styling */
 .contact-img {
   height: 64px;
   width: 64px;
@@ -123,6 +129,7 @@ ul.contact-container {
 ul.contact-container li {
   margin: 0 auto;
 }
+/* Media Queries */
 @media screen and (max-width: 980px) {
   header {
     padding: 10px;
